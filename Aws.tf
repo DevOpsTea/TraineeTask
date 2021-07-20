@@ -1,9 +1,4 @@
 #Access for terraform
-provider "aws" {
-  access_key = "AKIAX34XIGAOJEVPKH3F"
-  secret_key = "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"
-  region     = "us-east-1"
-}
 #creating VPC
 resource "aws_vpc" "Main_vpc" {
   cidr_block = "172.16.0.0/16"
